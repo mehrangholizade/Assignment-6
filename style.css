@@ -1,0 +1,61 @@
+body
+{
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+#menu
+{
+    padding-left: 0;
+    position: relative;
+    left: 380px;
+    
+    
+}
+#menu li
+{
+    list-style-type: none;
+    float: left;
+    background-color:seashell;
+    margin: 10px;
+    
+}
+#menu li a
+{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    
+}
+#menu li :hover
+{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    
+}
+#menu .submenu li
+{
+    float: none;
+    
+    
+}
+.submenu
+{
+    list-style-type: none;
+    padding-left: 0px;
+    background-color: darkgrey;
+    display: none;
+}
+#menu li a
+{
+    display: block;
+    background-color: darkgrey;
+}
+h1
+{
+    text-align: center;
+}
+#menu li:hover .submenu
+{
+    display: block;
+}
